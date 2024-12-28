@@ -41,8 +41,8 @@ div {
     color: red;
 }
 
-[meu-atributo] {
-    color: red;
+[meu-atributo^="valor"] {
+    color: purple;
 }
 
 [checked] {
