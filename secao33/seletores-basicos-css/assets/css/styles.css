@@ -1,0 +1,51 @@
+* {  /* Seletor de tudo */
+    margin: 0;
+    padding: 0;
+}
+
+body div section p,
+body div section h1 {  /* Seletor de descendente */
+    color: red;
+}
+
+.heading { /* Seletor de classe */
+    color: red;
+}
+
+.main-content h2 {
+    font-style: italic;
+}
+
+div {
+    color: initial;
+    margin-left: 20px;
+}
+
+.Pai > .Filha {   /* Child Selector  */
+    color: red;
+}
+
+.pai h1+p {  /* p que vem depois do h1 */
+    color: red;
+}
+
+.pai p+h1 {  /* h1 que vem depois do p */
+    color: yellow;
+}
+
+.pai h1~p {  /* Todos os elementos apos o h1 */
+    color: red;
+}
+
+.pai .um+.dois {  /* General sibling selection */
+    color: red;
+}
+
+[meu-atributo] {
+    color: red;
+}
+
+[checked] {
+    width: 50px;
+    height: 50px;
+}
