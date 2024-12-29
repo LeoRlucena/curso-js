@@ -1,0 +1,16 @@
+/*
+ID   -   Classes, Atributos, pseudo-classes   -  Elementos e pseudo-elementos
+1        0                                        0
+*/
+
+#p {
+    background: red;
+}
+
+#p.p {
+    background: yellow;
+}
+
+body.b#b p#p.p::selection:hover {
+    background: yellow;
+}
