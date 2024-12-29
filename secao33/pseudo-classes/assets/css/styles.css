@@ -1,46 +1,15 @@
-.heading {
-    transition: all 1s ease-in-out;
+ul li:nth-child(odd) {
+    background-color: rebeccapurple;
 }
 
-.heading:hover {
-    background: red;
+ul li:nth-child(even) {
+    background-color: darkturquoise;
 }
 
-a {
-    color: darkorange;
+ul li:nth-child(3n) {
+    background-color: darkolivegreen;
 }
 
-a:link {
-    color: deeppink;
-}
-
-a:visited {
-    color: firebrick;
-}
-
-a:hover {
-    background: darkcyan;
-    color: white;
-    text-decoration: none;
-}
-
-
-input:checked + p {
-    background: red;
-}
-
-input:not(:checked) + p {
-    background: yellow;
-}
-
-.pai .lista li:first-child {
-background: red;
-}
-
-input:required {
-    background: red
-}
-
-p:not(.meio) {
-    color: blue;
+ul li:nth-child(3n + 5) {
+    background-color: darkred;
 }
