@@ -39,7 +39,7 @@ O curso aborda JavaScript e TypeScript, cobrindo desde os conceitos básicos at�
 
 ## Referências
 
-- [Página do Curso na Udemy](https://www.udemy.com/course/javascript-e-typescript-do-basico-ao-avancado/)
+- [Página do Curso na Udemy](https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/)
 - [Documentação Oficial do JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [Documentação Oficial do TypeScript](https://www.typescriptlang.org/)
 
