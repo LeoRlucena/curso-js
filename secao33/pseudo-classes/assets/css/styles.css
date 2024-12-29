@@ -24,19 +24,13 @@ a:hover {
     text-decoration: none;
 }
 
-input:focus {
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-    outline: none;
-    border: 1px solid black;
-}
-
-input:disabled {
-    background-color: rebeccapurple;
-    cursor: not-allowed;
-}
 
 input:checked + p {
     background: red;
+}
+
+input:not(:checked) + p {
+    background: yellow;
 }
 
 .pai .lista li:first-child {
@@ -45,4 +39,8 @@ background: red;
 
 input:required {
     background: red
+}
+
+p:not(.meio) {
+    color: blue;
 }
