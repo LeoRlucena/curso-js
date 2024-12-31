@@ -6,18 +6,16 @@
 
 .flex-container {
     display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: flex-start;
-    align-content: space-around;
+    flex-flow: row nowrap;
     background: yellow;
-    height: 640px;
-    width: 960px;
+    height: 800px;
 }
 
 .flex-item {
+    width: 100%;
     color: #fff;
     background: red;
-    width: 33.33%;
 }
 
