@@ -4,18 +4,34 @@
     box-sizing: border-box;
 }
 
-.flex-container {
+body {
+    font-size: 24px;
+}
+
+p {
+    margin: 0 0 24px;
+}
+
+.two-columns {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-flow: row nowrap;
-    background: yellow;
-    height: 800px;
 }
 
-.flex-item {
-    width: 100%;
-    color: #fff;
-    background: red;
+.two-columns .col {
+    display: flex;
+    flex-direction: column;
+    background: lawngreen;
+    margin: 15px;
+    padding: 30px;
 }
 
+.gallery {
+    flex-flow: row wrap;
+    display: flex;
+}
+
+.gallery .img {
+    flex: 1 0 20%;
+    height: 50px;
+    background: cadetblue;
+    margin: 10px;
+}
